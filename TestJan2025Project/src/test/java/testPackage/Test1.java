@@ -13,5 +13,6 @@ public class Test1 {
 		WebDriverManager.edgedriver().setup();
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://maven.apache.org/download.cgi");
+		System.out.println("Hello shammi");
 	}
 }
